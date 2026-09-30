@@ -1,0 +1,765 @@
+{
+  "dummy": {
+    "parameters": {
+      "constant": null,
+      "random_state": null,
+      "strategy": "most_frequent"
+    },
+    "train_metric": [
+      {
+        "f1": 0.3370165745856354,
+        "accuracy": 0.5083333333333333
+      },
+      {
+        "f1": 0.3370165745856354,
+        "accuracy": 0.5083333333333333
+      },
+      {
+        "f1": 0.3370165745856354,
+        "accuracy": 0.5083333333333333
+      },
+      {
+        "f1": 0.33738266151297625,
+        "accuracy": 0.5091666666666667
+      },
+      {
+        "f1": 0.33738266151297625,
+        "accuracy": 0.5091666666666667
+      }
+    ],
+    "validation_metric": [
+      {
+        "f1": 0.33774834437086093,
+        "accuracy": 0.51
+      },
+      {
+        "f1": 0.33774834437086093,
+        "accuracy": 0.51
+      },
+      {
+        "f1": 0.33774834437086093,
+        "accuracy": 0.51
+      },
+      {
+        "f1": 0.336283185840708,
+        "accuracy": 0.5066666666666667
+      },
+      {
+        "f1": 0.336283185840708,
+        "accuracy": 0.5066666666666667
+      }
+    ],
+    "final_metric": {
+      "f1": 0.33687002652519893,
+      "accuracy": 0.508
+    }
+  },
+  "tree_1": {
+    "parameters": {
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": 1,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "random_state": 42,
+      "splitter": "best"
+    },
+    "train_metric": [
+      {
+        "f1": 0.8999974999374984,
+        "accuracy": 0.9
+      },
+      {
+        "f1": 0.8933285923818837,
+        "accuracy": 0.8933333333333333
+      },
+      {
+        "f1": 0.8974993593709961,
+        "accuracy": 0.8975
+      },
+      {
+        "f1": 0.895827473628725,
+        "accuracy": 0.8958333333333334
+      },
+      {
+        "f1": 0.8899923605805958,
+        "accuracy": 0.89
+      }
+    ],
+    "validation_metric": [
+      {
+        "f1": 0.8766543320998766,
+        "accuracy": 0.8766666666666667
+      },
+      {
+        "f1": 0.903332259247325,
+        "accuracy": 0.9033333333333333
+      },
+      {
+        "f1": 0.8866213151927438,
+        "accuracy": 0.8866666666666667
+      },
+      {
+        "f1": 0.8933333333333333,
+        "accuracy": 0.8933333333333333
+      },
+      {
+        "f1": 0.9166657407304526,
+        "accuracy": 0.9166666666666666
+      }
+    ],
+    "final_metric": {
+      "f1": 0.8839832935942775,
+      "accuracy": 0.884
+    }
+  },
+  "tree_3": {
+    "parameters": {
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": 3,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "random_state": 42,
+      "splitter": "best"
+    },
+    "train_metric": [
+      {
+        "f1": 0.9024983072622789,
+        "accuracy": 0.9025
+      },
+      {
+        "f1": 0.8958297886525305,
+        "accuracy": 0.8958333333333334
+      },
+      {
+        "f1": 0.8991665966434699,
+        "accuracy": 0.8991666666666667
+      },
+      {
+        "f1": 0.8974913864289986,
+        "accuracy": 0.8975
+      },
+      {
+        "f1": 0.8916666666666667,
+        "accuracy": 0.8916666666666667
+      }
+    ],
+    "validation_metric": [
+      {
+        "f1": 0.8733277034534868,
+        "accuracy": 0.8733333333333333
+      },
+      {
+        "f1": 0.903332259247325,
+        "accuracy": 0.9033333333333333
+      },
+      {
+        "f1": 0.8899400784871763,
+        "accuracy": 0.89
+      },
+      {
+        "f1": 0.8899987777641973,
+        "accuracy": 0.89
+      },
+      {
+        "f1": 0.8999599839935974,
+        "accuracy": 0.9
+      }
+    ],
+    "final_metric": {
+      "f1": 0.8799923195084485,
+      "accuracy": 0.88
+    }
+  },
+  "tree_full": {
+    "parameters": {
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "random_state": 42,
+      "splitter": "best"
+    },
+    "train_metric": [
+      {
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      {
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      {
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      {
+        "f1": 1.0,
+        "accuracy": 1.0
+      },
+      {
+        "f1": 1.0,
+        "accuracy": 1.0
+      }
+    ],
+    "validation_metric": [
+      {
+        "f1": 0.772838626341811,
+        "accuracy": 0.7733333333333333
+      },
+      {
+        "f1": 0.8433176650998433,
+        "accuracy": 0.8433333333333334
+      },
+      {
+        "f1": 0.8397435897435898,
+        "accuracy": 0.84
+      },
+      {
+        "f1": 0.8099472075576549,
+        "accuracy": 0.81
+      },
+      {
+        "f1": 0.8233156648998233,
+        "accuracy": 0.8233333333333334
+      }
+    ],
+    "final_metric": {
+      "f1": 0.7799964799436792,
+      "accuracy": 0.78
+    }
+  },
+  "tree_3_leaf20": {
+    "parameters": {
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": 3,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 20,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "random_state": 42,
+      "splitter": "best"
+    },
+    "train_metric": [
+      {
+        "f1": 0.8999974999374984,
+        "accuracy": 0.9
+      },
+      {
+        "f1": 0.8933285923818837,
+        "accuracy": 0.8933333333333333
+      },
+      {
+        "f1": 0.8974993593709961,
+        "accuracy": 0.8975
+      },
+      {
+        "f1": 0.895827473628725,
+        "accuracy": 0.8958333333333334
+      },
+      {
+        "f1": 0.8899923605805958,
+        "accuracy": 0.89
+      }
+    ],
+    "validation_metric": [
+      {
+        "f1": 0.8766543320998766,
+        "accuracy": 0.8766666666666667
+      },
+      {
+        "f1": 0.903332259247325,
+        "accuracy": 0.9033333333333333
+      },
+      {
+        "f1": 0.8866213151927438,
+        "accuracy": 0.8866666666666667
+      },
+      {
+        "f1": 0.8933333333333333,
+        "accuracy": 0.8933333333333333
+      },
+      {
+        "f1": 0.9166657407304526,
+        "accuracy": 0.9166666666666666
+      }
+    ],
+    "final_metric": {
+      "f1": 0.8839832935942775,
+      "accuracy": 0.884
+    }
+  },
+  "bagging": {
+    "parameters": {
+      "bootstrap": true,
+      "bootstrap_features": false,
+      "estimator__ccp_alpha": 0.0,
+      "estimator__class_weight": null,
+      "estimator__criterion": "gini",
+      "estimator__max_depth": 3,
+      "estimator__max_features": null,
+      "estimator__max_leaf_nodes": null,
+      "estimator__min_impurity_decrease": 0.0,
+      "estimator__min_samples_leaf": 1,
+      "estimator__min_samples_split": 2,
+      "estimator__min_weight_fraction_leaf": 0.0,
+      "estimator__monotonic_cst": null,
+      "estimator__random_state": 42,
+      "estimator__splitter": "best",
+      "estimator": "DecisionTreeClassifier(max_depth=3, random_state=42)",
+      "max_features": 1.0,
+      "max_samples": null,
+      "n_estimators": 100,
+      "n_jobs": null,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "train_metric": [
+      {
+        "f1": 0.8999974999374984,
+        "accuracy": 0.9
+      },
+      {
+        "f1": 0.8949927078269324,
+        "accuracy": 0.895
+      },
+      {
+        "f1": 0.8974993593709961,
+        "accuracy": 0.8975
+      },
+      {
+        "f1": 0.8966563322998966,
+        "accuracy": 0.8966666666666666
+      },
+      {
+        "f1": 0.8916558322498916,
+        "accuracy": 0.8916666666666667
+      }
+    ],
+    "validation_metric": [
+      {
+        "f1": 0.8766543320998766,
+        "accuracy": 0.8766666666666667
+      },
+      {
+        "f1": 0.903332259247325,
+        "accuracy": 0.9033333333333333
+      },
+      {
+        "f1": 0.8866213151927438,
+        "accuracy": 0.8866666666666667
+      },
+      {
+        "f1": 0.8899987777641973,
+        "accuracy": 0.89
+      },
+      {
+        "f1": 0.9166657407304526,
+        "accuracy": 0.9166666666666666
+      }
+    ],
+    "final_metric": {
+      "f1": 0.8839832935942775,
+      "accuracy": 0.884
+    }
+  },
+  "forest": {
+    "parameters": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": 3,
+      "max_features": 1,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": null,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "train_metric": [
+      {
+        "f1": 0.8999974999374984,
+        "accuracy": 0.9
+      },
+      {
+        "f1": 0.8941577729795351,
+        "accuracy": 0.8941666666666667
+      },
+      {
+        "f1": 0.8966655185057611,
+        "accuracy": 0.8966666666666666
+      },
+      {
+        "f1": 0.8966563322998966,
+        "accuracy": 0.8966666666666666
+      },
+      {
+        "f1": 0.8899889988998899,
+        "accuracy": 0.89
+      }
+    ],
+    "validation_metric": [
+      {
+        "f1": 0.8766543320998766,
+        "accuracy": 0.8766666666666667
+      },
+      {
+        "f1": 0.903332259247325,
+        "accuracy": 0.9033333333333333
+      },
+      {
+        "f1": 0.8832697802136719,
+        "accuracy": 0.8833333333333333
+      },
+      {
+        "f1": 0.8899987777641973,
+        "accuracy": 0.89
+      },
+      {
+        "f1": 0.9166657407304526,
+        "accuracy": 0.9166666666666666
+      }
+    ],
+    "final_metric": {
+      "f1": 0.8859776516197175,
+      "accuracy": 0.886
+    }
+  },
+  "adaboost": {
+    "parameters": {
+      "estimator__ccp_alpha": 0.0,
+      "estimator__class_weight": null,
+      "estimator__criterion": "gini",
+      "estimator__max_depth": 1,
+      "estimator__max_features": null,
+      "estimator__max_leaf_nodes": null,
+      "estimator__min_impurity_decrease": 0.0,
+      "estimator__min_samples_leaf": 1,
+      "estimator__min_samples_split": 2,
+      "estimator__min_weight_fraction_leaf": 0.0,
+      "estimator__monotonic_cst": null,
+      "estimator__random_state": 42,
+      "estimator__splitter": "best",
+      "estimator": "DecisionTreeClassifier(max_depth=1, random_state=42)",
+      "learning_rate": 0.1,
+      "n_estimators": 100,
+      "random_state": 42
+    },
+    "train_metric": [
+      {
+        "f1": 0.8999974999374984,
+        "accuracy": 0.9
+      },
+      {
+        "f1": 0.8933285923818837,
+        "accuracy": 0.8933333333333333
+      },
+      {
+        "f1": 0.8974993593709961,
+        "accuracy": 0.8975
+      },
+      {
+        "f1": 0.895827473628725,
+        "accuracy": 0.8958333333333334
+      },
+      {
+        "f1": 0.8899923605805958,
+        "accuracy": 0.89
+      }
+    ],
+    "validation_metric": [
+      {
+        "f1": 0.8766543320998766,
+        "accuracy": 0.8766666666666667
+      },
+      {
+        "f1": 0.903332259247325,
+        "accuracy": 0.9033333333333333
+      },
+      {
+        "f1": 0.8866213151927438,
+        "accuracy": 0.8866666666666667
+      },
+      {
+        "f1": 0.8933333333333333,
+        "accuracy": 0.8933333333333333
+      },
+      {
+        "f1": 0.9166657407304526,
+        "accuracy": 0.9166666666666666
+      }
+    ],
+    "final_metric": {
+      "f1": 0.8839832935942775,
+      "accuracy": 0.884
+    }
+  },
+  "gradient": {
+    "parameters": {
+      "ccp_alpha": 0.0,
+      "criterion": "deprecated",
+      "init": null,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_depth": 2,
+      "max_features": null,
+      "max_leaf_nodes": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "n_estimators": 100,
+      "n_iter_no_change": null,
+      "random_state": 42,
+      "subsample": 1.0,
+      "tol": 0.0001,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "train_metric": [
+      {
+        "f1": 0.9058327447879883,
+        "accuracy": 0.9058333333333334
+      },
+      {
+        "f1": 0.9008216936571027,
+        "accuracy": 0.9008333333333334
+      },
+      {
+        "f1": 0.9008327135377929,
+        "accuracy": 0.9008333333333334
+      },
+      {
+        "f1": 0.9016568323499017,
+        "accuracy": 0.9016666666666666
+      },
+      {
+        "f1": 0.8983262726578235,
+        "accuracy": 0.8983333333333333
+      }
+    ],
+    "validation_metric": [
+      {
+        "f1": 0.8733277034534868,
+        "accuracy": 0.8733333333333333
+      },
+      {
+        "f1": 0.8999955553580159,
+        "accuracy": 0.9
+      },
+      {
+        "f1": 0.8866213151927438,
+        "accuracy": 0.8866666666666667
+      },
+      {
+        "f1": 0.8899987777641973,
+        "accuracy": 0.89
+      },
+      {
+        "f1": 0.9133294813102805,
+        "accuracy": 0.9133333333333333
+      }
+    ],
+    "final_metric": {
+      "f1": 0.8779956078418822,
+      "accuracy": 0.878
+    }
+  },
+  "stacking": {
+    "parameters": {
+      "cv": "StratifiedKFold(n_splits=3, random_state=42, shuffle=True)",
+      "estimators": [
+        [
+          "lr",
+          "Pipeline(steps=[('standardscaler', StandardScaler()),\n                ('logisticregression', LogisticRegression(max_iter=1000))])"
+        ],
+        [
+          "tree",
+          "DecisionTreeClassifier(max_depth=3, random_state=42)"
+        ],
+        [
+          "knn",
+          "Pipeline(steps=[('standardscaler', StandardScaler()),\n                ('kneighborsclassifier', KNeighborsClassifier(n_neighbors=15))])"
+        ]
+      ],
+      "final_estimator__C": 1.0,
+      "final_estimator__class_weight": null,
+      "final_estimator__dual": false,
+      "final_estimator__fit_intercept": true,
+      "final_estimator__intercept_scaling": 1,
+      "final_estimator__l1_ratio": 0.0,
+      "final_estimator__max_iter": 1000,
+      "final_estimator__n_jobs": null,
+      "final_estimator__penalty": "deprecated",
+      "final_estimator__random_state": null,
+      "final_estimator__solver": "lbfgs",
+      "final_estimator__tol": 0.0001,
+      "final_estimator__verbose": 0,
+      "final_estimator__warm_start": false,
+      "final_estimator": "LogisticRegression(max_iter=1000)",
+      "n_jobs": null,
+      "passthrough": false,
+      "stack_method": "auto",
+      "verbose": 0,
+      "lr": "Pipeline(steps=[('standardscaler', StandardScaler()),\n                ('logisticregression', LogisticRegression(max_iter=1000))])",
+      "tree": "DecisionTreeClassifier(max_depth=3, random_state=42)",
+      "knn": "Pipeline(steps=[('standardscaler', StandardScaler()),\n                ('kneighborsclassifier', KNeighborsClassifier(n_neighbors=15))])",
+      "lr__memory": null,
+      "lr__steps": [
+        [
+          "standardscaler",
+          "StandardScaler()"
+        ],
+        [
+          "logisticregression",
+          "LogisticRegression(max_iter=1000)"
+        ]
+      ],
+      "lr__transform_input": null,
+      "lr__verbose": false,
+      "lr__standardscaler": "StandardScaler()",
+      "lr__logisticregression": "LogisticRegression(max_iter=1000)",
+      "lr__standardscaler__copy": true,
+      "lr__standardscaler__with_mean": true,
+      "lr__standardscaler__with_std": true,
+      "lr__logisticregression__C": 1.0,
+      "lr__logisticregression__class_weight": null,
+      "lr__logisticregression__dual": false,
+      "lr__logisticregression__fit_intercept": true,
+      "lr__logisticregression__intercept_scaling": 1,
+      "lr__logisticregression__l1_ratio": 0.0,
+      "lr__logisticregression__max_iter": 1000,
+      "lr__logisticregression__n_jobs": null,
+      "lr__logisticregression__penalty": "deprecated",
+      "lr__logisticregression__random_state": null,
+      "lr__logisticregression__solver": "lbfgs",
+      "lr__logisticregression__tol": 0.0001,
+      "lr__logisticregression__verbose": 0,
+      "lr__logisticregression__warm_start": false,
+      "tree__ccp_alpha": 0.0,
+      "tree__class_weight": null,
+      "tree__criterion": "gini",
+      "tree__max_depth": 3,
+      "tree__max_features": null,
+      "tree__max_leaf_nodes": null,
+      "tree__min_impurity_decrease": 0.0,
+      "tree__min_samples_leaf": 1,
+      "tree__min_samples_split": 2,
+      "tree__min_weight_fraction_leaf": 0.0,
+      "tree__monotonic_cst": null,
+      "tree__random_state": 42,
+      "tree__splitter": "best",
+      "knn__memory": null,
+      "knn__steps": [
+        [
+          "standardscaler",
+          "StandardScaler()"
+        ],
+        [
+          "kneighborsclassifier",
+          "KNeighborsClassifier(n_neighbors=15)"
+        ]
+      ],
+      "knn__transform_input": null,
+      "knn__verbose": false,
+      "knn__standardscaler": "StandardScaler()",
+      "knn__kneighborsclassifier": "KNeighborsClassifier(n_neighbors=15)",
+      "knn__standardscaler__copy": true,
+      "knn__standardscaler__with_mean": true,
+      "knn__standardscaler__with_std": true,
+      "knn__kneighborsclassifier__algorithm": "auto",
+      "knn__kneighborsclassifier__leaf_size": 30,
+      "knn__kneighborsclassifier__metric": "minkowski",
+      "knn__kneighborsclassifier__metric_params": null,
+      "knn__kneighborsclassifier__n_jobs": null,
+      "knn__kneighborsclassifier__n_neighbors": 15,
+      "knn__kneighborsclassifier__p": 2,
+      "knn__kneighborsclassifier__weights": "uniform"
+    },
+    "train_metric": [
+      {
+        "f1": 0.9008299587972091,
+        "accuracy": 0.9008333333333334
+      },
+      {
+        "f1": 0.8949927078269324,
+        "accuracy": 0.895
+      },
+      {
+        "f1": 0.8983322036911521,
+        "accuracy": 0.8983333333333333
+      },
+      {
+        "f1": 0.8974913864289986,
+        "accuracy": 0.8975
+      },
+      {
+        "f1": 0.8916558322498916,
+        "accuracy": 0.8916666666666667
+      }
+    ],
+    "validation_metric": [
+      {
+        "f1": 0.8766543320998766,
+        "accuracy": 0.8766666666666667
+      },
+      {
+        "f1": 0.903332259247325,
+        "accuracy": 0.9033333333333333
+      },
+      {
+        "f1": 0.8899400784871763,
+        "accuracy": 0.89
+      },
+      {
+        "f1": 0.8899987777641973,
+        "accuracy": 0.89
+      },
+      {
+        "f1": 0.9166657407304526,
+        "accuracy": 0.9166666666666666
+      }
+    ],
+    "final_metric": {
+      "f1": 0.8839832935942775,
+      "accuracy": 0.884
+    }
+  }
+}
